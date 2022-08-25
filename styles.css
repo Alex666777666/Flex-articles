@@ -4,5 +4,15 @@
   background-color: bisque;
 }
 .article {
+  display: flex;
   flex-basis: 300px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  display: flex;
+  flex-direction: column;
 }
