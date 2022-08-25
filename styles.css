@@ -3,6 +3,6 @@
   padding: 16px;
   background-color: bisque;
 }
-p {
+article {
   flex-basis: 300px;
 }
