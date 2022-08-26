@@ -1,8 +1,10 @@
 .article {
-  padding: 8px;
-  margin: 16px;
+  margin: 8px;
+  padding: 16px;
   background-color: bisque;
   flex-basis: 300px;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 
 body {
@@ -13,7 +15,6 @@ body {
 
 .articles-list {
   display: flex;
-  flex-grow: 1;
-  flex-shrink: 0;
+
   flex-wrap: wrap;
 }
