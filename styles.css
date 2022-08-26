@@ -6,6 +6,8 @@
   flex-grow: 1;
   flex-shrink: 0;
   max-height: 100%;
+  max-width: 100vh;
+  flex-wrap: wrap;
 }
 
 body {
