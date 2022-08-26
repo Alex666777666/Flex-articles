@@ -13,8 +13,7 @@ body {
 
 .articles-list {
   display: flex;
-
   flex-grow: 1;
   flex-shrink: 0;
-  min-height: 100vh;
+  flex-wrap: wrap;
 }
