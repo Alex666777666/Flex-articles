@@ -2,6 +2,7 @@
   padding: 8px;
   margin: 16px;
   background-color: bisque;
+  flex-basis: 300px;
 }
 
 body {
@@ -12,8 +13,8 @@ body {
 
 .articles-list {
   display: flex;
-  flex-basis: 300px;
+
   flex-grow: 1;
   flex-shrink: 0;
-  max-height: 100%;
+  min-height: 100vh;
 }
