@@ -7,17 +7,14 @@
   flex-shrink: 0;
 }
 
-h1 {
-  display: flex;
-  justify-content: center;
-}
 body {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100vh;
 }
 
 .articles-list {
   display: flex;
-  flex-grow: 0;
-  flex-wrap: wrap;
 }
