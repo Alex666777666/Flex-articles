@@ -5,14 +5,13 @@
   flex-basis: 300px;
   flex-grow: 1;
   flex-shrink: 0;
+  height: 100vh;
 }
 
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
-  max-width: 100vh;
 }
 
 .articles-list {
